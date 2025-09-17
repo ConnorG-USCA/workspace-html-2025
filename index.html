@@ -50,7 +50,7 @@
 		</div>
 
 		<div class="practice">
-			<form>
+			<form action="">
 				<p>Your username and password:</p>
   				<div>
     				<label for="uname">Username: </label>
@@ -58,7 +58,7 @@
   				</div>
 				<div>
     				<label for="password">Password: </label>
-    				<input type="text" id="password" name="password" />
+    				<input type="password" id="password" name="password" />
   				</div>
 				<p>Your favorite music genre:</p>
 				<div>
@@ -96,15 +96,19 @@
 		<div class="practice">
 			<form action="">
         		<p>
+            		First Name: <input type="text" placeholder="John" required>
+        		</p>
+				<p>
+            		Last Name: <input type="text" placeholder="Doe" required>
+        		</p>
+				<p>
             		Email Address: <input type="email" placeholder="xxx@usca.edu" required>
         		</p>
-        		<p>   
-            		<input type="submit" value="Submit">
-        		</p>
-      		</form> 
-        	<form action="">
         		<p>
             		Telephone Number: <input type="tel" placeholder="(xxx)xxx-xxxx" pattern="\(\{d}\)\d{3}-\d{4}" required>
+        		</p>
+				<p>
+            		Favorite Animal (Optional): <input type="text" placeholder="Cat" >
         		</p>
         		<p>   
             		<input type="submit" value="Submit">
